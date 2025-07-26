@@ -39,4 +39,40 @@
 ---
 
 ## 📂 Request Format (multipart/form-data)
+{
+"nm_barang": "Keyboard",
+"jml_stok": 10,
+"no_seri": "KBD12345",
+"additionalInfo": {
+"brand": "Logitech",
+"color": "Black"
+}
+}
 
+Send `image` as separate form-data field.
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repo
+```bash
+git clone https://github.com/your-username/inventory-springboot-api.git
+cd inventory-springboot-api
+```
+
+2. Configure application.properties (PostgreSQL DB)
+3. Run the app
+
+## Postman Test
+1. Get All Data
+<img width="1330" height="587" alt="image" src="https://github.com/user-attachments/assets/cfc0fc9d-b24e-475b-922d-077815739a98" />
+
+2. Post Data
+<img width="1334" height="584" alt="image" src="https://github.com/user-attachments/assets/ca7c3d6e-b542-4f32-8ccb-c7c3f0fbe0fc" />
+
+3. Get Data by ID
+<img width="1326" height="581" alt="image" src="https://github.com/user-attachments/assets/433f390a-7ce8-4414-8dc1-ec314dd4df93" />
+
+4. Delete Data by ID
+<img width="1344" height="446" alt="image" src="https://github.com/user-attachments/assets/9f97621e-c928-470a-80b1-29f2829c9ce7" />
