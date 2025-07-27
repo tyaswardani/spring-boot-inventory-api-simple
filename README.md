@@ -57,7 +57,7 @@ Send `image` as separate form-data field.
 
 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/inventory-springboot-api.git
+git clone https://github.com/tyaswardani/spring-boot-inventory-api-simple.git
 cd inventory-springboot-api
 ```
 
